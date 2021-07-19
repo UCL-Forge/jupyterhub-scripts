@@ -1,0 +1,13 @@
+# conda env create -f environment.yml
+name: compbio-variant-calling
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bedtools=2.30.0
+  - samtools=1.13
+  - picard=2.25.6
+  - gatk4=4.2.0.0
+  - bwa=0.7.17
+  
